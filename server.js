@@ -5,7 +5,7 @@ const jwt = require("jsonwebtoken");
 const cors = require("cors");
 const bcrypt = require("bcrypt");
 
-const Customer = require("./models/Customer");
+const Customer = require("./Models/Customer");
 
 require("dotenv").config();
 
